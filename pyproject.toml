@@ -1,0 +1,11 @@
+[project]
+name = "thinhblog"
+version = "2.0.0"
+description = "A personal blog with Django"
+readme = "README.md"
+license = "GPL-3.0"
+authors = [
+    { name = "Thinh Nguyen Phuoc", email = "npthinh1996@gmail.com" }
+]
+requires-python = ">=3.11"
+dependencies = []
