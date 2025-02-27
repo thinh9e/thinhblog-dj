@@ -8,4 +8,18 @@ authors = [
     { name = "Thinh Nguyen Phuoc", email = "npthinh1996@gmail.com" }
 ]
 requires-python = ">=3.11"
-dependencies = []
+dependencies = [
+    "django~=5.1",
+]
+
+[dependency-groups]
+dev = [
+    "black~=25.1",
+]
+test = [
+    "coverage~=7.6",
+]
+
+[tool.black]
+line-length = 120
+target-version = ["py311"]
