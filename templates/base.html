@@ -1,0 +1,13 @@
+<!doctype html>
+<html lang="vi">
+<head>
+    <title>{% block title %}{% endblock %}</title>
+    {% block head %}{% endblock %}
+</head>
+<body>
+{% include 'header.html' %}
+{% block content %}{% endblock %}
+{% include 'footer.html' %}
+{% block foot %}{% endblock %}
+</body>
+</html>

@@ -1,7 +1,9 @@
 from django.urls.conf import path
 
-from blogs import views
+from blogs.views import IndexView
+
+app_name = "blogs"
 
 urlpatterns = [
-    path("", views.index, name="index"),
+    path("", IndexView.as_view(), name="index"),
 ]
