@@ -1,0 +1,92 @@
+[
+  {
+    "model": "settings.setting",
+    "fields": {
+      "category": "general",
+      "key": "title",
+      "name": "Title",
+      "value": ""
+    }
+  },
+  {
+    "model": "settings.setting",
+    "fields": {
+      "category": "general",
+      "key": "description",
+      "name": "Description",
+      "value": ""
+    }
+  },
+  {
+    "model": "settings.setting",
+    "fields": {
+      "category": "general",
+      "key": "author",
+      "name": "Author",
+      "value": ""
+    }
+  },
+  {
+    "model": "settings.setting",
+    "fields": {
+      "category": "general",
+      "key": "address",
+      "name": "Address",
+      "value": ""
+    }
+  },
+  {
+    "model": "settings.setting",
+    "fields": {
+      "category": "social",
+      "key": "social_email",
+      "name": "Email",
+      "value": ""
+    }
+  },
+  {
+    "model": "settings.setting",
+    "fields": {
+      "category": "social",
+      "key": "social_facebook",
+      "name": "Facebook",
+      "value": ""
+    }
+  },
+  {
+    "model": "settings.setting",
+    "fields": {
+      "category": "social",
+      "key": "social_github",
+      "name": "Github",
+      "value": ""
+    }
+  },
+  {
+    "model": "settings.setting",
+    "fields": {
+      "category": "social",
+      "key": "social_linkedin",
+      "name": "LinkedIn",
+      "value": ""
+    }
+  },
+  {
+    "model": "settings.setting",
+    "fields": {
+      "category": "donation",
+      "key": "donation_momo",
+      "name": "MoMo",
+      "value": ""
+    }
+  },
+  {
+    "model": "settings.setting",
+    "fields": {
+      "category": "donation",
+      "key": "donation_paypal",
+      "name": "PayPal",
+      "value": ""
+    }
+  }
+]
